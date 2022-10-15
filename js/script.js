@@ -35,7 +35,7 @@ const renderPokemon = async (pokemon) => {
     } else {
         pokemon.style.display = 'none';
         pokemonName.innerHTML = 'Não encontrado';
-        pokemonName.innerHTML = '';
+        pokemonNumber.innerHTML = '';
     }
 }
 
